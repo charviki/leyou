@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <span th:text="${groups}"></span>
+<script th:inline="javascript">
+    const a = /*[[${groups}]]*/ null;
+    const b = /*[[${paramMap}]]*/ null;
+    const c = /*[[${categories}]]*/ null;
+    const d = /*[[${title}]]*/ null;
+    const e = /*[[${detail}]]*/ null;
+    const f = /*[[${skus}]]*/ null;
+    const g = /*[[${brand}]]*/ null;
+</script>
+</body>
+</html>
