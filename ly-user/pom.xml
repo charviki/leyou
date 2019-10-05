@@ -15,6 +15,7 @@
     <modules>
         <module>ly-user-interface</module>
         <module>ly-user-service</module>
+        <module>../test</module>
     </modules>
 
 
